@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-image: url(images/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
+    font-family: 'Spartan', sans-serif;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h4 {
+    padding: 20px 50px;
+    font-size: 25px;
+    color: hsl(300, 43%, 22%);
+}
+.header p {
+    font-size: 13px;
+    color: hsl(300, 43%, 22%);
+    padding: 0 30px;
+}
+
+.first-star{
+    color: hsl(300, 43%, 22%);
+    background-color: hsl(300, 24%, 96%);
+    margin-left:  20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    font-size:15px;
+    font-weight: 100px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.second-star{
+    color: hsl(300, 43%, 22%);
+    background-color: hsl(300, 24%, 96%);
+    margin-right:  20px;
+    margin-left: 20px;
+    font-size:15px;
+    font-weight: 100px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.third-star{
+    color: hsl(300, 43%, 22%);
+    background-color: hsl(300, 24%, 96%);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 16px;
+    font-size:15px;
+    font-weight: 100px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.colton {
+    background-color: hsl(300, 43%, 22%);
+    color:hsl(0, 0%, 100%);
+    padding: 40px;
+    margin: 20px;
+    border-radius:5px;
+    font-size: 13px;
+}
+
+.irene {
+    background-color: hsl(300, 43%, 22%);
+    color:hsl(0, 0%, 100%);
+    padding: 40px;
+    margin: 20px;
+    border-radius:5px;
+    font-size: 15px;
+}
+
+.anne {
+    background-color: hsl(300, 43%, 22%);
+    color:hsl(0, 0%, 100%);
+    padding: 40px;
+    margin: 20px;
+    border-radius:5px;
+    font-size: 15px;
+}
+
+.veri {
+    color: hsl(333, 80%, 67%);
+    font-size: 15px;
+    margin: 4px 0;
+}
+
+.images {
+    border-radius: 100px;
+    margin-bottom: 20px;
+    width: 40px;
+}
+
+.imagename {
+    display: flex;
+    align-items: center;
+/*    padding-left: 15px;*/
+}
+
+.nameveri {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.attribution a{
+    color:  hsl(333, 80%, 67%);
+    text-decoration: none;
+    font-weight: 50px;
+}
+
+.attribution {
+    font-size: 10px;
+    padding: 0 30px;
+}
+
+@media  (min-width: 900px){
+    
+    body {
+        background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+        background-position: left top, right bottom;
+        background-repeat: no-repeat, no-repeat;
+    }
+    .header-one {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .header h4 {
+        font-size: 40px;
+        padding-left: 60px;
+        text-align: left;
+    }
+    
+    .header p {
+        padding-left: 60px;
+        font-size: 15px;
+        text-align: left;
+    }
+    
+    .header {
+        width: 40%;
+
+    }
+    
+    .header-two {
+        display: flex;
+        align-items: center;
+        padding: 0 40px;
+    }
+    
+    .irene {
+        margin-top: 70px;
+    }
+    
+    .anne {
+        margin-top: 110px;
+    }
+    
+    .attribution {
+        padding: 0 60px;;
+    }
+    .star-div {
+        width: 60%;
+        padding-right: 60px;
+    }
+    .spy {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .first-star {
+       margin-right: 150px;
+    }
+    .second-star {
+        margin-right: 80px;
+        margin-left: 70px;
+    }
+    .third-star {
+        margin-left: 150px;
+    }
+    
+}
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+}
